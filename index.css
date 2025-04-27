@@ -6,22 +6,22 @@ body {
     min-height: 100vh;
 }
 
-.center-container {
-    min-height: 100vh;
+.logo-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;  
-    position: relative;
-    padding-top: 60px;  
+    justify-content: center;  
+    padding-top: 30px;  
 }
 
 .logo img {
-    width: 200px; 
-    position: absolute;
-    top: 0; 
-    left: 50%; 
-    transform: translateX(-50%);
+    width: 200px;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
 }
 
 .login-container {
@@ -35,8 +35,9 @@ body {
     flex-direction: column;
     align-items: stretch;
     box-shadow: 0 2px 24px rgba(0,0,0,0.1);
-    margin-top: 120px; 
+    margin-top: 40px;  
 }
+
 
 
 
