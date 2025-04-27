@@ -103,7 +103,14 @@ body {
     width: 16px;
     height: 16px;
     margin-right: 6px;
+    vertical-align: middle; 
 }
+
+.remember-me label {
+    margin: 0; 
+    line-height: 16px; 
+}
+
 
 .signin-btn {
     background-color: #f1b400;
