@@ -51,7 +51,8 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Ensure spacing between inputs */
 }
 
 .password-container {
@@ -74,6 +75,10 @@ body {
     color: white;
 }
 
+.remember-me label {
+    margin-left: 5px; /* Space between checkbox and text */
+}
+
 .signin-btn {
     background-color: #f1b400;
     border: none;
@@ -83,7 +88,7 @@ body {
     border-radius: 5px;
     margin-bottom: 10px;
     cursor: pointer;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .signin-btn:hover {
@@ -114,7 +119,7 @@ body {
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .google-btn {
