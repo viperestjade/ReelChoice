@@ -21,7 +21,9 @@ body {
     border-radius: 10px;
     width: 300px;
     color: #f1b400;
-    /* Remove text-align: center; */
+    display: flex;
+    flex-direction: column; /* Ensure all children stack vertically */
+    align-items: stretch; /* Ensure full width for child elements */
 }
 
 .login-container h2 {
@@ -29,11 +31,10 @@ body {
     margin-bottom: 20px;
 }
 
-/* Align labels and inputs properly */
 .login-container form {
     display: flex;
     flex-direction: column;
-    align-items: stretch; /* make labels and inputs full width */
+    align-items: stretch;
 }
 
 .login-container label {
@@ -44,14 +45,13 @@ body {
 
 .login-container input[type="email"],
 .login-container input[type="password"] {
-    width: 100%;
+    width: 100%; /* Make the inputs take the full width */
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 5px;
     border: none;
 }
 
-/* For password label and 'forgot password' link */
 .password-container {
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,7 @@ body {
     background-color: #f1b400;
     border: none;
     padding: 10px;
-    width: 100%;
+    width: 100%; /* Ensure the button takes the full width */
     font-weight: bold;
     border-radius: 5px;
     margin-bottom: 10px;
