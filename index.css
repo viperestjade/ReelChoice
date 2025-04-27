@@ -51,6 +51,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    box-sizing: border-box; 
 }
 
 .password-container {
@@ -82,6 +83,7 @@ body {
     border-radius: 5px;
     margin-bottom: 10px;
     cursor: pointer;
+    box-sizing: border-box; 
 }
 
 .signin-btn:hover {
@@ -112,6 +114,7 @@ body {
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    box-sizing: border-box; 
 }
 
 .google-btn {
