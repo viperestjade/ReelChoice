@@ -1,8 +1,8 @@
-/* Background */
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: url('background-movies.jpg') no-repeat center center fixed;
+    background: url('HomepageBg.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white;
     height: 100vh;
@@ -10,7 +10,6 @@ body {
     overflow: hidden;
   }
   
-  /* Transparent dark overlay */
   body::before {
     content: "";
     position: absolute;
@@ -20,7 +19,6 @@ body {
     z-index: 0;
   }
   
-  /* Menu Icon */
   .menu-icon {
     position: absolute;
     top: 20px;
@@ -36,7 +34,6 @@ body {
     border-radius: 2px;
   }
   
-  /* Container */
   .container {
     position: relative;
     z-index: 1;
@@ -44,7 +41,6 @@ body {
     top: 20%;
   }
   
-  /* Logo */
   .logo .diamond {
     width: 150px;
     height: 150px;
@@ -100,7 +96,6 @@ body {
     color: #ff007f;
   }
   
-  /* Buttons */
   .buttons {
     margin-top: 20px;
   }
