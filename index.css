@@ -13,6 +13,13 @@ body {
     margin-top: 20px;
 }
 
+.login-container form label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
 .login-container {
     background-color: #2a2a34;
     padding: 30px;
@@ -20,13 +27,14 @@ body {
     border: 2px solid #f1b400;
     border-radius: 10px;
     width: 300px;
-    text-align: center;
     color: #f1b400;
 }
 
 .login-container h2 {
     margin-bottom: 20px;
+    text-align: center;
 }
+
 
 .login-container input[type="email"],
 .login-container input[type="password"] {
