@@ -6,18 +6,18 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensures space between the logo and form */
+    justify-content: space-between; 
 }
 
 .logo-container {
     display: flex;
     justify-content: center;
     padding-top: 20px;  
-    margin-bottom: 20px; /* Added space below the logo */
+    margin-bottom: 20px; 
 }
 
 .logo img {
-    width: 120px; /* Reduced the size of the logo */
+    width: 120px; 
     display: block; 
 }
 
@@ -25,9 +25,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Makes sure the login form stays at the bottom */
-    flex-grow: 1; /* Takes remaining space in the body */
-    padding-bottom: 20px; /* Added space at the bottom of the form */
+    justify-content: flex-start; 
+    flex-grow: 1; 
+    padding-bottom: 20px; 
 }
 
 .login-container {
@@ -41,7 +41,7 @@ body {
     flex-direction: column;
     align-items: stretch;
     box-shadow: 0 2px 24px rgba(0,0,0,0.1);
-    margin: 0 20px; /* Added space around the form */
+    margin: 0 20px; 
 }
 
 .login-container h2 {
