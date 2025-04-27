@@ -4,17 +4,19 @@ body {
     background-color: #1c1c24;
     font-family: Arial, sans-serif;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures space between the logo and form */
 }
 
 .logo-container {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     padding-top: 20px;  
-    margin-bottom: 0;   
 }
 
 .logo img {
-    width: 100px; 
+    width: 150px; /* Adjusted to a larger size */
     display: block; 
 }
 
@@ -22,13 +24,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    justify-content: flex-start; /* Makes sure the login form stays at the bottom */
+    flex-grow: 1; /* Takes remaining space in the body */
 }
 
 .login-container {
     background-color: #23232b;
-    padding: 32px 32px 24px 32px;
+    padding: 32px;
     border: 3px solid #f1b400;
     border-radius: 12px;
     width: 350px;
