@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c24;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.login-container {
+    background-color: #2a2a34;
+    padding: 30px;
+    margin-top: 20px;
+    border: 2px solid #f1b400;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    color: #f1b400;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.password-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-container a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.signin-btn {
+    background-color: #f1b400;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.signin-btn:hover {
+    background-color: #e0a500;
+}
+
+.divider {
+    margin: 10px 0;
+    color: gray;
+}
+
+.google-btn, .facebook-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.google-btn {
+    background-color: #c62828;
+    color: white;
+}
+
+.facebook-btn {
+    background-color: #1565c0;
+    color: white;
+}
