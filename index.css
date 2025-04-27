@@ -1,11 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #1c1c24;
+    background-color: #1c1c24; /* Dark background */
     font-family: Arial, sans-serif;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
 }
 
 .logo img {
@@ -14,27 +15,21 @@ body {
 }
 
 .login-container {
-    background-color: #2a2a34;
+    background-color: #2a2a34; /* Darker background for the form */
     padding: 30px;
-    margin-top: 20px;
-    border: 2px solid #f1b400;
+    border: 2px solid #f1b400; /* Yellow border */
     border-radius: 10px;
     width: 300px;
-    color: #f1b400;
-    display: flex;
-    flex-direction: column; 
-    align-items: stretch; 
+    color: #f1b400; /* Yellow text */
 }
 
 .login-container h2 {
     text-align: left;
-    margin-bottom: 20px;
 }
 
 .login-container form {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
 }
 
 .login-container label {
@@ -50,55 +45,50 @@ body {
     margin-top: 10px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    box-sizing: border-box;
-    margin-bottom: 10px; /* Ensure spacing between inputs */
+    background-color: #3c3c44; /* Dark input background */
+    color: white;
 }
 
 .password-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px;
 }
 
 .password-container a {
     font-size: 12px;
-    color: white;
-    text-decoration: none;
+    color: #f1b400; /* Yellow link */
 }
 
 .remember-me {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-top: 15px;
     color: white;
 }
 
 .remember-me label {
-    margin-left: 5px; /* Space between checkbox and text */
+    margin-left: 5px; 
 }
 
 .signin-btn {
-    background-color: #f1b400;
+    background-color: #f1b400; /* Yellow button */
     border: none;
     padding: 10px;
     width: 100%; 
     font-weight: bold;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-top: 10px;
     cursor: pointer;
-    box-sizing: border-box;
 }
 
 .signin-btn:hover {
-    background-color: #e0a500;
+    background-color: #e0a500; /* Darker yellow on hover */
 }
 
 .divider {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 10px 0;
     color: gray;
 }
@@ -114,7 +104,6 @@ body {
 .google-btn, .facebook-btn {
     width: 100%;
     padding: 10px;
-    margin-top: 10px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
@@ -123,11 +112,11 @@ body {
 }
 
 .google-btn {
-    background-color: #c62828;
+    background-color: #c62828; /* Red for Google */
     color: white;
 }
 
 .facebook-btn {
-    background-color: #1565c0;
+    background-color: #1565c0; /* Blue for Facebook */
     color: white;
 }
