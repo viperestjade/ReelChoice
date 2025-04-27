@@ -1,12 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #1c1c24; /* Dark background */
+    background-color: #1c1c24; 
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Full viewport height */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
 }
 
 .logo img {
@@ -15,12 +15,12 @@ body {
 }
 
 .login-container {
-    background-color: #2a2a34; /* Darker background for the form */
+    background-color: #2a2a34; 
     padding: 30px;
-    border: 2px solid #f1b400; /* Yellow border */
+    border: 2px solid #f1b400; 
     border-radius: 10px;
     width: 300px;
-    color: #f1b400; /* Yellow text */
+    color: #f1b400; 
 }
 
 .login-container h2 {
@@ -45,7 +45,7 @@ body {
     margin-top: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #3c3c44; /* Dark input background */
+    background-color: #3c3c44; 
     color: white;
 }
 
@@ -57,7 +57,7 @@ body {
 
 .password-container a {
     font-size: 12px;
-    color: #f1b400; /* Yellow link */
+    color: #f1b400; 
 }
 
 .remember-me {
@@ -72,7 +72,7 @@ body {
 }
 
 .signin-btn {
-    background-color: #f1b400; /* Yellow button */
+    background-color: #f1b400; 
     border: none;
     padding: 10px;
     width: 100%; 
@@ -83,7 +83,7 @@ body {
 }
 
 .signin-btn:hover {
-    background-color: #e0a500; /* Darker yellow on hover */
+    background-color: #e0a500; 
 }
 
 .divider {
@@ -112,11 +112,11 @@ body {
 }
 
 .google-btn {
-    background-color: #c62828; /* Red for Google */
+    background-color: #c62828;
     color: white;
 }
 
 .facebook-btn {
-    background-color: #1565c0; /* Blue for Facebook */
+    background-color: #1565c0; 
     color: white;
 }
