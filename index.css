@@ -22,8 +22,8 @@ body::before {
   width: 300px;
   height: 500px;
   object-fit: contain;
-  margin-top: -100px;
-  margin-bottom: -50px; 
+  margin-top: -120px;
+  margin-bottom: -70px; 
 }
 
 .menu-icon {
