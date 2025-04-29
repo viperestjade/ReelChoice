@@ -71,7 +71,7 @@ body::before {
 .logo-image img {
   width: 160px;
   height: auto;
-  margin-bottom: -30px;
+  margin-bottom: -40px;
 }
 
 h1 {
@@ -83,7 +83,7 @@ h1 {
 }
 
 .buttons {
-  margin-top: -25px;
+  margin-top: -40px;
 }
 .buttons button {
   background-color: #f0b500;
