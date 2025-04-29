@@ -19,7 +19,7 @@ body::before {
 }
 
 .title-image img {
-  width: 320px;
+  width: 120px;
   height: auto;
   object-fit: contain;
   margin-top: -40px;
