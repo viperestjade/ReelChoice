@@ -64,7 +64,7 @@ body::before {
 .logo-image img {
   width: 160px;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .title-image {
@@ -74,7 +74,7 @@ body::before {
   margin: 40px 0 50px 0;
 }
 .title-image img {
-  width: 300px;
+  width: 350px;
   height: auto;
 }
 
