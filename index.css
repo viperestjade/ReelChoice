@@ -64,14 +64,14 @@ body::before {
 .logo-image img {
   width: 180px;
   height: auto;
-  margin-bottom: -5px;
+  margin-bottom: -20px;
 }
 
 .title-image {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 0 50px 0;
+  margin: 40px 0 45px 0;
 }
 .title-image img {
   width: 350px;
