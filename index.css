@@ -62,7 +62,7 @@ body::before {
 }
 
 .logo-image img {
-  width: 180px;
+  width: 190px;
   height: auto;
   margin-bottom: -30px;
 }
@@ -71,7 +71,7 @@ body::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 0 35px 0;
+  margin: 40px 0 25px 0;
 }
 .title-image img {
   width: 350px;
