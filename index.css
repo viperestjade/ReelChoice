@@ -64,14 +64,14 @@ body::before {
 .logo-image img {
   width: 190px;
   height: auto;
-  margin-bottom: -30px;
+  margin-bottom: -50px;
 }
 
 .title-image {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 0 25px 0;
+  margin: 40px 0 5px 0;
 }
 .title-image img {
   width: 350px;
@@ -87,7 +87,7 @@ h1 {
 }
 
 .buttons {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .buttons button {
   background-color: #f0b500;
