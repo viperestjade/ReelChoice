@@ -23,7 +23,7 @@ body::before {
   height: 500px;
   object-fit: contain;
   margin-top: -175px;
-  margin-bottom: -100px; 
+  margin-bottom: -120px; 
 }
 
 .menu-icon {
@@ -71,7 +71,7 @@ body::before {
 .logo-image img {
   width: 160px;
   height: auto;
-  margin-bottom: -50px;
+  margin-bottom: -70px;
 }
 
 h1 {
