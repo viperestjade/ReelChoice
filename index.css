@@ -71,7 +71,7 @@ body::before {
 .logo-image img {
   width: 160px;
   height: auto;
-  margin-bottom: 5px;
+  margin-bottom: -10px;
 }
 
 h1 {
