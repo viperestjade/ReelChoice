@@ -62,9 +62,9 @@ body::before {
 }
 
 .logo-image img {
-  width: 160px;
+  width: 180px;
   height: auto;
-  margin-bottom: 5px;
+  margin-bottom: -5px;
 }
 
 .title-image {
