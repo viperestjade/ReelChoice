@@ -171,3 +171,17 @@ h1 {
   font-weight: bold;
   color: white;
 }
+
+.close-menu {
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 20px solid white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  z-index: 4;
+  transform: rotate(180deg); 
+}
