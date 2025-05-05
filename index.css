@@ -172,16 +172,15 @@ h1 {
   color: white;
 }
 
-.close-menu {
-  width: 0;
-  height: 0;
-  border-top: 12px solid transparent;
-  border-bottom: 12px solid transparent;
-  border-right: 20px solid white;
+.back-button {
   position: absolute;
   top: 20px;
   left: 20px;
   cursor: pointer;
   z-index: 4;
-  transform: rotate(180deg); 
+}
+
+.back-button img {
+  width: 40px;
+  height: auto;
 }
