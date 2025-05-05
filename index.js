@@ -5,3 +5,8 @@ document.getElementById("surpriseBtn").addEventListener("click", function() {
 document.getElementById("filtersBtn").addEventListener("click", function() {
   alert("Let's apply some filters to find your movie!");
 });
+
+document.querySelector('.menu-icon').addEventListener('click', function () {
+  document.getElementById('sideMenu').classList.toggle('active');
+});
+
