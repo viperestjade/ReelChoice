@@ -175,12 +175,12 @@ h1 {
 .back-button {
   position: absolute;
   top: 20px;
-  left: 20px;
+  right: 20px;
   cursor: pointer;
   z-index: 4;
 }
 
 .back-button img {
-  width: 40px;
+  width: 60px;
   height: auto;
 }
