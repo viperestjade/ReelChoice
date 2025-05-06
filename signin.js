@@ -11,3 +11,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         alert("Incorrect email or password.");
     }
 });
+
+function goBack() {
+    window.location.href = "index.html";
+}
