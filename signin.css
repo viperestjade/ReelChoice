@@ -192,3 +192,21 @@ body {
     width: 18px;
     height: 18px;
 }
+
+.back-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.back-icon img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s ease;
+}
+
+.back-icon:hover img {
+    transform: scale(1.1);
+}
