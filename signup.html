@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ReelChoice - Sign Up</title>
+    <link rel="stylesheet" href="signin.css"> <!-- Reuse login CSS -->
+</head>
+<body>
+
+    <!-- Back icon -->
+    <div class="back-icon" onclick="goBack()">
+        <img src="back-icon2.png" alt="Back">
+    </div>
+
+    <!-- Logo container -->
+    <div class="logo-container">
+        <div class="logo">
+            <img src="ReelChoice_Logo.png" alt="ReelChoice Logo">
+        </div>
+    </div>
+
+    <!-- Center container with signup form -->
+    <div class="center-container">
+        <div class="login-container">
+            <h2>Sign up</h2>
+            <form id="signupForm">
+                <label for="newEmail">Email</label>
+                <input type="email" id="newEmail" placeholder="your@email.com" required>
+
+                <label for="newPassword">Password</label>
+                <input type="password" id="newPassword" placeholder="● ● ● ● ● ●" required>
+
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="● ● ● ● ● ●" required>
+
+                <button type="submit" class="signin-btn">Sign up</button>
+            </form>
+
+            <p class="signup-text">Already have an account? <a href="index.html">Sign in</a></p>
+
+            <div class="divider">or</div>
+
+            <button class="google-btn">
+                <span class="icon"><img src="https://img.icons8.com/color/16/000000/google-logo.png"/></span>
+                Sign up with Google
+            </button>
+            <button class="facebook-btn">
+                <span class="icon"><img src="https://img.icons8.com/color/16/000000/facebook-new.png"/></span>
+                Sign up with Facebook
+            </button>
+        </div>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>
