@@ -1,18 +1,19 @@
 body {
   margin: 0;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Lato", sans-serif;
   background-color: #1c1d22;
   color: white;
 }
 
 h3 {
   font-size: x-large;
-  font-weight: lighter
+  font-weight: 300;
 }
 
 strong {
   font-weight: bold;
   font-size: xx-large;
+  font-family: "IBM Plex Serif";
 }
 
 header {
@@ -52,7 +53,7 @@ header {
 .bar {
   width: 25px;
   height: 4px;
-  background-color: #ff007f;
+  background-color: #CF1C5D;
   margin: 5px 0;
   border-radius: 2px;
 }
@@ -62,6 +63,7 @@ header {
   font-weight: bold;
   color: #f6b723;
   padding-left: 3rem;
+  padding-top: 3px;
   display: flex;
 }
 
@@ -82,6 +84,7 @@ header {
   margin: 1rem 0;
   font-size: 3rem;
   font-weight: lighter;
+  font-family: "Lato", sans-serif;
 }
 
 .profile-card {
@@ -100,8 +103,8 @@ header {
 }
 
 .avatar {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 3px solid gold;
 }
@@ -112,12 +115,12 @@ header {
 }
 
 .edit-btn {
-  background-color: #ff3388;
+  background-color: #CF1C5D;
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 20px;
+  border-radius: 12px;
   cursor: pointer;
-  color: white;
+  color: #FFF9D9;
   font-size: 0.8rem;
 }
 
