@@ -19,5 +19,5 @@ document.getElementById("signupForm").addEventListener("submit", function(event)
 });
 
 function goBack() {
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 }
