@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: #1c1d22;
+  color: white;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.bar {
+  width: 25px;
+  height: 4px;
+  background-color: #ff007f;
+  margin: 5px 0;
+  border-radius: 2px;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -270px;
+  width: 270px;
+  height: 100%;
+  background-color: #1e1e22;
+  transition: left 0.3s ease;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.side-menu.active {
+  left: 0;
+}
+
+.side-menu ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.side-menu ul li {
+  margin: 20px 0;
+}
+
+.side-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.side-menu ul li a:hover {
+  color: #ff007f;
+}
+
+.menu-footer {
+  text-align: center;
+  padding: 20px 20px 60px 20px;
+}
+
+.menu-footer img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.menu-footer span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.back-button img {
+  width: 60px;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 3rem;
+  font-weight: lighter;
+  font-family: "Lato", sans-serif;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f6b723;
+  padding-left: 3rem;
+  padding-top: 3px;
+  display: flex;
+}
+
+.logo .highlight {
+  color: #cf1c5d;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #1c1d22;
+  padding: 1rem;
+}

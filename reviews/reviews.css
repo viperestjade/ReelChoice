@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: #1c1d22;
+  color: rgb(227, 223, 223);
+}
+
+.menu-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.bar {
+  width: 25px;
+  height: 4px;
+  background-color: #ff007f;
+  margin: 5px 0;
+  border-radius: 2px;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -270px;
+  width: 270px;
+  height: 100%;
+  background-color: #1e1e22;
+  transition: left 0.3s ease;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.side-menu.active {
+  left: 0;
+}
+
+.side-menu ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.side-menu ul li {
+  margin: 20px 0;
+}
+
+.side-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.side-menu ul li a:hover {
+  color: #ff007f;
+}
+
+.menu-footer {
+  text-align: center;
+  padding: 20px 20px 60px 20px;
+}
+
+.menu-footer img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.menu-footer span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.back-button img {
+  width: 60px;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 3rem;
+  font-weight: lighter;
+  font-family: "Lato", sans-serif;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f6b723;
+  padding-left: 3rem;
+  padding-top: 3px;
+  display: flex;
+}
+
+.logo .highlight {
+  color: #cf1c5d;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #1c1d22;
+  padding: 1rem;
+}
+
+.material-symbols-outlined {    
+  color: #f6b723;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 0,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+/* Review card styles */
+.reviews-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem 0.8rem;
+  justify-items: center;
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #721c3ec0;
+  border-radius: 12px;
+  border: 1px solid #f6b723;
+  width: 420px;
+  height: 220px;
+  box-sizing: border-box;
+  padding: 1rem 1rem 1rem 0.7rem;
+  position: relative;
+  transition: box-shadow 0.2s;
+  overflow: hidden;
+}
+
+.review-card:hover {
+  box-shadow: 0 4px 24px 0 #f6b723;
+}
+
+.review-card .poster {
+  width: 135px;
+  height: 195px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 1rem;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px #0003;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.review-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  flex: 1;
+  min-width: 0;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.movie-title {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  color: rgb(227, 223, 223);
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+}
+
+.review-rating {
+  display: flex;
+  gap: 0.1rem;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+
+.review-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 0.1rem;
+  flex-shrink: 0;
+}
+
+.review-text {
+  font-size: 0.95rem;
+  margin: 0;
+  margin-top: 0.1rem;
+  word-break: break-word;
+}
+
+.heart {
+  color: #f6b723;
+  font-size: 2rem;
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+}
+
+@media (max-width: 1500px) {
+  .reviews-container {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1120px;
+  }
+}
+@media (max-width: 1000px) {
+  .reviews-container {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+  .review-card {
+    width: 100%;
+    min-width: 0;
+  }
+}
