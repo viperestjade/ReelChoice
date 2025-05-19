@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: "Lato", sans-serif;
   background-color: #1c1d22;
   color: white;
@@ -108,6 +109,11 @@ body {
   padding-left: 3rem;
   padding-top: 3px;
   display: flex;
+  text-decoration: none;
+}
+
+.logo .a {
+  text-decoration: none;
 }
 
 .logo .highlight {
@@ -123,4 +129,104 @@ body {
 header {
   background-color: #1c1d22;
   padding: 1rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ffd700;
+  overflow: hidden;
+  border: 3px solid #c39738;
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.username {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.message {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.date {
+  margin: 0;
+  font-size: 1rem;
+  color: #ffd700;
+}
+
+.calendar {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #721c3ec0;
+  border: 2px solid #F6B723;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.calendar h2 {
+  margin: 0;
+  color: #F6B723;
+  font-size: xx-large;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.calendar-day {
+  padding: 10px;
+  background-color: transparent;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.movie-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: brightness(50%);
+}
+
+.movie-poster:hover {
+  filter: brightness(100%);
+  box-shadow: 0 4px 24px 0 #f6b723;
+  z-index: 1;;
+}
+
+.highlight {
+  color: #F6B723;
+  font-style: italic;
+}
+
+.reel-day{
+  position: absolute;
+  font-size: 1.5rem;
+  z-index: 1; /* Ensure it stays above the poster */
+  border-radius: 3px;
 }
