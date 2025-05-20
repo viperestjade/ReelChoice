@@ -27,6 +27,10 @@ header {
   justify-content: space-between;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .menu-icon {
   position: absolute;
   top: 20px;
@@ -53,7 +57,7 @@ header {
 .bar {
   width: 25px;
   height: 4px;
-  background-color: #CF1C5D;
+  background-color: #cf1c5d;
   margin: 5px 0;
   border-radius: 2px;
 }
@@ -106,7 +110,7 @@ header {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #F6B723;
+  border: 3px solid #f6b723;
 }
 
 .user-details {
@@ -115,12 +119,12 @@ header {
 }
 
 .edit-btn {
-  background-color: #CF1C5D;
+  background-color: #cf1c5d;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 12px;
   cursor: pointer;
-  color: #FFF9D9;
+  color: #fff9d9;
   font-size: 0.8rem;
 }
 
@@ -227,4 +231,82 @@ header {
 .back-button img {
   width: 60px;
   height: auto;
+}
+
+@media (max-width: 700px) {
+  .profile-card,
+  .section {
+    width: 98%;
+    padding: 1rem;
+  }
+
+  .profile-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .avatar {
+    width: 90px;
+    height: 90px;
+  }
+
+  .user-details {
+    padding: 0;
+    text-align: center;
+  }
+
+  .edit-btn {
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+
+  .movie-grid {
+    gap: 12px;
+  }
+
+  .movie img {
+    width: 100px;
+    height: 150px;
+  }
+
+  .friends {
+    gap: 12px;
+  }
+
+  .friend img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .side-menu {
+    width: 80vw;
+    left: -80vw;
+    padding-top: 40px;
+  }
+
+  .side-menu.active {
+    left: 0;
+  }
+
+  .menu-footer {
+    padding: 10px 10px 30px 10px;
+  }
+
+  .menu-footer img {
+    width: 36px;
+    height: 36px;
+  }
 }

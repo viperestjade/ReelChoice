@@ -120,6 +120,10 @@ body {
   justify-content: space-between;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 header {
   background-color: #1c1d22;
   padding: 1rem;
